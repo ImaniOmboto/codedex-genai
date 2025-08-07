@@ -6,5 +6,8 @@ sentence = "Hello there! How are you doing today?"
 tokens = word_tokenize(sentence)
 print(tokens)
 
-bigrams = list(ngrams(tokens, 3))
+bigrams = list(ngrams(tokens, 2))
 print(bigrams)
+
+unigrams = list(ngrams(tokens, 1))
+print(unigrams)
