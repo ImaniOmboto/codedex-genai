@@ -1,1 +1,0 @@
-print("gen ai is so cool")
